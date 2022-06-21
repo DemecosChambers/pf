@@ -1,4 +1,5 @@
 
+#UAT GR Redis Template
 resource "aws_elasticache_cluster" "catalog-airflow-staging-broker" {
   cluster_id           = "catalog-airflow-staging-broker"
   engine               = "redis"
